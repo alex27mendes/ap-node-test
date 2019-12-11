@@ -8,6 +8,8 @@
   "repository": "Polymer/shop",
   "scripts": {
     "start": "polymer serve",
+    "serve:prpl-server": "prpl-server --root server/build",
+    "serve:static": "polymer serve --port 5000 build/es5-bundled",
     "test": "mocha test/ --timeout=10000"
   },
   "dependencies": {
